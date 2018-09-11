@@ -9,5 +9,12 @@ class Heure{
 		
 		
 	}
-
+	
+	public int getHeures(){
+		return heures;
+	}
+	
+	public int minutes(){
+		return minutes;
+	}
 }
