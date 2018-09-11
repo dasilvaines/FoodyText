@@ -1,6 +1,6 @@
 
 class Heure{
-	private int heure;
+	private int heures;
 	private int minutes;
 
 	Heure( int heures , int minutes){
@@ -17,4 +17,11 @@ class Heure{
 	public int minutes(){
 		return minutes;
 	}
+	public void setHeures( int heures){
+		this.heures = heures;
+	}
+	public void setMinutes( int minutes){
+		this.minutes = minutes ;
+	}
+	
 }
